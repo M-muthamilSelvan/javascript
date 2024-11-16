@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const avg=60;
+        const grade=avg<30?"pass ": "fail";
+        console.log(grade);
+
+
+       /* const mark=55;
+        const result=mark>=90?"grade A" : mark>50?"grade B"
+        console.log(result)*/
+
+        const val=15;
+        const res=val>18?"eligiable to vote" : val<18? "not eligeble to vote":"avg";
+        console.log(res);
+
+        //bitwise operator
+
+        const num1=2;
+        const num2=3;
+          
+        const num6=10;
+        const num7=14;
+        const sum=num1&num2;
+        console.log(sum);
+
+
+        const num3=4; //0100
+        const num4=8; // 1000
+        const sum1=num3|num4;
+        console.log(sum1);
+
+
+        const sum2=num1^num2;
+        console.log(sum2);
+      
+        let x = num1 << num2;
+        console.log(x);
+
+
+        const avg1=null??"no value";
+        console.log(avg1);
+
+        const avg2=1000??"1000";
+        console.log(avg2);
+
+
+        const avg3=undefined??"300";
+        console.log(avg3);
+
+        const avg4="50"??"500";
+        console.log(avg4);
+
+        const avg5=true??"no value";
+        console.log(avg5);
+
+        const obj={'name':'tamil','age':22};
+        console.log("age is : ",obj.age);
+
+        console.log(obj.add??'no address');
+        obj.city??='cbe';
+        console.log("address is : ", obj.city);
+
+
+
+        let day= prompt("enter the day");
+        if(day==='fri' || day==='sat');{
+            console.log("color dress");
+        } 
+
+
+
+        {
+            console.log("must in uniform");
+        }
+
+
+
+        
+
+
+
+    </script>
+    
+</body>
+</html>

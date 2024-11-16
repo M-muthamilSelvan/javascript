@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+let name = prompt("Enter the name");
+let cls = prompt("Enter the class");
+let tam = Number(prompt("Enter the Tamil mark"));
+let eng = Number(prompt("Enter the English mark"));
+let math = Number(prompt("Enter the Maths mark"));
+let sci = Number(prompt("Enter the Science mark"));
+let soc = Number(prompt("Enter the Social mark"));
+
+let tot = tam + eng + math + sci + soc;  // This now performs numeric addition
+console.log("The student's total mark:", tot);
+
+let avg = tot / 5;
+console.log("The student's average mark:", avg);
+
+         console.log("the student aveage mark : ",avg);
+
+         if(avg>90){
+            console.log("grade A");
+         } else if (avg>80 && avg<70)
+         {
+            console.log("grade B");
+
+         } 
+         else if (avg>50 && avg<40)
+         {
+            console.log("grade C");
+
+         }
+         else if(avg<30){
+            console.log("Fail");
+
+         }
+         
+        
+         
+         
+        
+         
+         
+
+    </script>
+
+</body>
+</html>

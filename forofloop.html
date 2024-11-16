@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+       // let key;
+      /*  let arr=["tamil","selvan","ram"]
+        let str=prompt("enter the string : ");
+        for(let i of arr){
+            console.log( "array", i);
+        }
+
+
+       for (let j of str) {
+       console.log("string:", j); 
+       }*/
+
+    const person = {
+    name: "tamil",
+    age: 22,
+    city: "cbe"
+};
+
+for (let key in person) {
+    console.log(key + ": " + person[key]);
+}
+
+let keys= Object.keys(person);
+console.log(keys);
+let valusearr1= Object.values(person);
+console.log(valusearr1);
+for( let k;k<=keys.lenght;i++){
+             key=keys[k];
+            console.log(key);
+        }
+
+
+
+
+
+
+    </script>
+    </body>
+</html>

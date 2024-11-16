@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+    <script>
+        let fruits = ["apple" , "banana", "dates" , "cherry" ]
+        let hasChery= fruits.includes("cherry");
+        console.log("includes ('cherry'):",hasChery);
+        let hasChery1 = fruits.indexOf("dates");
+        console.log("index off ('dates'):",hasChery1)
+        let hasChery2 = fruits.lastIndexOf("cherry");
+        console.log("lastindexoff ('cherry'):",hasChery2)
+        let hasChery4 = fruits.lastIndexOf("apple");
+        console.log("lastindexoff ('apple'):",hasChery4)
+
+        let fruits2 = ["grapes", "gova", "mango"]
+        let newfruits = fruits.concat(fruits2);
+        console.log("concat array",newfruits);
+
+        let fruitsstr= fruits.join(",");
+        console.log("join ", fruitsstr);
+        
+
+        //assignment 
+
+        //let array1 = prompt("Enter the array");
+        //console.log("array to string",array1.split(" "))
+
+        let res1 = newfruits.join(",ta");
+        console.log(res1);
+
+        let reves= newfruits.reverse();
+        console.log(" reversed",reves)
+
+        let sort1= newfruits.sort();
+        console.log(" sort",sort1)
+
+       let pop1= newfruits.pop();
+       console.log("pop :",pop1)
+
+       let push1 = newfruits.push("tamil","ram","banana");
+       console.log(newfruits); 
+
+       let shift= newfruits.shift();
+       console.log("shift", shift);
+
+       let unshift= newfruits.unshift("water melon ","musk melon","dates");
+       console.log("shift", unshift);
+
+       console.log(newfruits)
+
+       newfruits.splice(1,5, "apple", "banana1");
+       console.log(newfruits);
+
+       
+       
+
+
+
+
+       
+
+        
+
+
+
+</script>
+    
+</body>
+</html>

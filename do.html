@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let a = 10;
+do {
+    console.log(a);
+
+    if (a === 5) {
+        console.log("break", a);
+        break;
+    }
+    a--;
+} while (a >= 0);
+
+console.log("loop has ended");
+
+
+console.log("==============================");
+
+const password="tamil";
+let attempt=3;
+let input;
+
+do {
+     input=prompt("enter your password : ");
+    if (input!== password){
+        attempt--;
+        alert(`wronf password . balance attempts ${attempt} `);
+
+    }
+}while(input !== password && attempt>0);
+    if(input === password){
+        alert("correct passwod");
+    }
+    else {
+        alert("wrong password")
+    }
+
+
+
+
+
+
+            
+    </script>
+    
+</body>
+</html>

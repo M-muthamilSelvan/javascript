@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+      /*  let input=prompt("enter the data : ");
+   
+        let i=0;
+
+      
+        while(i< input.length){
+            if(input === 'a' && 'e' && 'i' && 'o' && 'u')
+        {
+
+            console.log("yes");
+        }
+        else {
+            console.log("no")
+        }
+        }*/
+
+        let input = prompt("Enter the data: ").toLowerCase();
+        let vowels = ['a', 'e', 'i', 'o', 'u'];
+        let vowelsFound = [];
+        let i = 0;
+        while (i < input.length) {
+            let char = input[i];
+            if (vowels.includes(char)) {
+                console.log("Vowel found:", char);
+                vowelsFound.push(char);
+            }
+            i++;
+        }
+        alert(vowelsFound);
+
+
+
+
+
+
+
+
+//alert(`Total vowels found: ${vowelCount}\nVowels: ${vowelsFound.join(", ")}`);
+
+    </script>
+    
+</body>
+</html>

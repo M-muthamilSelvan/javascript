@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+       
+
+
+        let str1= "muthamilselvan";
+        let str2= "MUTHAMIL SELVAN";
+
+
+        let trimmedstr = str1.trim();
+        console.log(trimmedstr);
+
+        let upperstr = str1.toUpperCase();
+        console.log(upperstr);
+
+        let lowerstr = str1.toLowerCase();
+        console.log(lowerstr);
+
+        let substr = str1.substring(6,8);
+        console.log(substr);
+
+        let replacestr = str1.replace("tamil","selvan");
+        console.log(replacestr);
+
+        console.log("charAt(0):", str1.charAt(0));
+        
+        
+
+        let str3 = "hello";
+        let str4= "world";
+        let concatstr = str1.concat(str3);
+        console.log(concatstr);
+
+        console.log("indexOf('javascript'):", str1.includes("javascript"));
+        console.log("indexOf('puthon'):",str1.indexOf("python"));
+        
+        //index off
+        console.log("indexOf('javascript'):",str1.indexOf("javascript"));
+        console.log("indexOf('python'):",str1.indexOf("python"));
+
+
+
+        //split 
+        let fruits1= "banana, apple ,grapes,oranges"
+        let fruits = fruits1.split(",");
+        console.log("split():",fruits);
+
+        //student
+        let std1= "tamil,22,cbe"
+        let std2= "ram,21,che"
+        let std3= "vijay,22,cbe"
+        let std4= "ajith,21,che"
+        let std5= "viney,22,cbe"
+        let res1 = std1.split(",");
+        let res2 = std2.split(",");
+        let res3 = std3.split(",");
+        let res4 = std4.split(",");
+        let res5= std5.split(",");
+        console.log(res1)
+        console.log(res2)
+        console.log(res3)
+        console.log(res4)
+        console.log(res5)
+
+        
+        let stds="std1,std2,std3,std4";
+        let stds2=stds.split(",");
+        console.log("split():",stds2);
+
+        let sli= str1.slice(0,4);
+        console.log(sli)
+
+        let sub= str1.substring(0,4);
+        console.log(sub)
+
+        // assignment
+
+        let sub1 = str1.substring(-4,6);
+        console.log("haii",sub1)
+
+        let sub2 = str1.substring(3,-7);
+        console.log("hai",sub2)
+
+        //slice
+
+        let sli1 = str1.slice(6,-4);
+        console.log(sli1)
+        let sli2 = str1.slice(3,-7);
+        console.log(sli2)
+        let sli3 = str1.slice(0,-5);
+        console.log(sli3)
+        let sli4 = str1.slice(-6);
+        console.log(sli4)
+        
+
+        //repeat
+        let repeatstr = " tamil "
+        console.log("repeat(3)" , repeatstr.repeat(5));
+
+        console.log("search('selvan'):",str1.search("selvan"));
+
+        console.log("startwith('mutha'):",str1.startsWith("mutha"));
+        console.log("endwith('selvan'):",str1.endsWith("selvan"));
+
+        console.log("endwith('s'):",str1.endsWith("s"));
+
+        let col= "kongunadu arts and science college coimbatore"
+        
+        console.log("search('kongunadu'):",col.search("college"));
+        
+        console.log("indexOf('kongunadu '):",str1.indexOf("kongunadu"));
+
+        
+
+        
+
+        
+
+
+
+
+
+        
+
+
+        
+      
+
+
+        
+
+
+         
+
+
+
+    </script>
+    
+</body>
+</html>
